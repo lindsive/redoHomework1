@@ -26,14 +26,14 @@ li {
 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: #A8BAB8;
+    color: #777777;
     text-decoration: none;
 }
 
 #logo {
     padding: 0;
     position: fixed;
-    left: 50px;
+    left: 15px;
     right: 0;
     top: 0;
     margin: auto;
@@ -41,6 +41,7 @@ a {
     text-align: left;
     max-width: 960px;
     display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .logoContainer {
@@ -55,7 +56,7 @@ a {
 }
 
 .headerContainer {
-    background-color: aquamarine;
+    background-color: #ffffff;
     width: 100%;
     height: 80px;
     top: 0;
@@ -64,23 +65,26 @@ a {
     position: fixed;
     text-align: left;
     vertical-align: center;
+    border-bottom: #cccccc solid 2px;
 
 }
 
 
-
 #centerContent {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
-    top: 250px;
-    background-color: aqua;
+    top: 125px;
+    background-color: #ffffff;
     margin: auto;
     text-align: justify;
     vertical-align: middle;
     width: 960px;
     max-width: 960px;
     padding: 20px;
+    overflow: auto;
+    border: #dddddd 1px solid;
+    line-height: 1.5;
 }
 
 .footer {
@@ -91,8 +95,27 @@ a {
     text-align: center;
     vertical-align: middle;
     line-height: 60px;
-    background-color: #777777;
+    background-color: #666666;
     color: whitesmoke;
     border-top: 8px solid #4aaaa5;
     height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#contentTitle {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
