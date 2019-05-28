@@ -9,78 +9,70 @@
 
 <body>
 
-    <!--Logo-->
-<div class="allContent">
-    <div>
-        <header>
-            <div id="moveLogo">
-                <div class="logoContainer">
-                    <h1 class="logo">Lindsay Iveson</h1>
-                </div>
-            </div>
     <!--NavBar-->
-            <nav> 
-                <div class="container">
-                    <div class="wrapper">
-                        <ul>
-                            <li><a href="#Contact"><h3>Contact</h3></a></li>
-                            <li><a href="#Portfolio"><h3>Portfolio</h3></a></li>
-                            <li><a href="#About"><h3>About</h3></a></li>
-                        </ul>
-                    </div>
-                 </div>
-            </nav>
-        </header>
-    </div>
+    <header class="headerContainer">
+    
+        <nav>
+            <ul>
+                <li><a href="#About"><h3>About</h3></a></li>
+                <li><a href="#Portfolio"><h3>Portfolio</h3></a></li>
+                <li><a href="#Contact"><h3>Contact</h3></a></li>
+            </ul>
+        </nav>
+        
+        <!--Logo-->
+        <div class="logoContainer">
+            <h1 id="logo">Lindsay Iveson</h1>  
+        </div>
+    
+    </header>
+
     
     <br />
     <br />
     
+    <div id="centerContent">
     <!--Page Content-->
     
-    <div>
-            <div class="picContentContainer">
-                <div class="contentText">
-                        <h1 id="pageTitle">Portfolio</h1>
+        <h1 id="pageTitle">Portfolio</h1>
             
     <hr />
-                </div>
-            </div>
-    </div>
     
     <br />
-    <div class="movePics">
-        <div>
+                
+            <div class="row">
+                <div class="column">
+                    <img src="cycle .jpeg"  alt="cyclist" />
+                    <h3 class="h3Profile">Word Guess</h3>
+                </div>
+                <div class="column">  
+                    <img src="placeholder2.jpeg" alt="Empire State Buliding and skyline at      dusk">
+                    <h3 class="h3Profile">RPG Game</h3>
+                </div>
+             </div>
         
-            <img src ="./assets/images/placeholder1.jpeg" alt="cyclist">
-
-            <img class="rightImages" src="./assets/images/placeholder2.jpeg" alt="Empire State Buliding and skyline at dusk">
-    
+        <div class="row">
+            <div class="column">
+                <img src="placeholder3.jpeg" alt= "black and white image of Golden Gate Bridge"> 
+                    <h3 class="h3Profile">Trivia Game</h3>
+            </div>
+        
+            <div class="column">
+                <img src="placeholder4.jpeg" alt="Trees & leaves in silohuette on a sunny day">
+                    <h3 class="h3Profile">Rutgers Info Widget</h3>
+            </div>
         </div>
 
-        <div>
-
-            <img src="./assets/images/placeholder3.jpeg" alt= "black and white image of Golden Gate Bridge"> 
-
-            <img class="rightImages" src="./assets/images/placeholder4.jpeg" alt="Trees & leaves in silohuette on a sunny day">
-
+        
+        <div class="image">
+            <img src="placeholder5.jpeg" alt="Sony music player in black and white">
+            <h3 class="h3Profile">Rock, Paper, Scissors</h3>
         </div>
 
-        <div>
-
-            <img src="./assets/images/placeholder5.jpeg" alt="Sony music player in black and white">
-
-        </div>
-</div>
-    
+    </div>
 
 <!--Sticky Footer-->
-    <div>
-        <div class="footer">
-            <p>Made by lindsive©</p>
-        </div>
-    </div>
-</div>
+    <footer class="footer">Made by lindsive©</footer>
 </body>
 
 </html>
